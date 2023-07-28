@@ -23,6 +23,12 @@ public class Test : MonoBehaviour
         {
             Debug.Log(array[i]);
         }
+
+        //配列を逆順で表示する
+        for (int i = 4; i >= 0; i--)
+        {
+            Debug.Log(array[i]);
+        }
     }
     // Update is called once per frame
     void Update()
